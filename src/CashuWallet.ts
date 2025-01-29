@@ -1146,7 +1146,7 @@ class CashuWallet {
 							s: hexToBytes(p.dleq.s),
 							e: hexToBytes(p.dleq.e),
 							r: rs[i]
-					  } as DLEQ);
+					} as DLEQ);
 			const blindSignature = {
 				id: p.id,
 				amount: p.amount,
